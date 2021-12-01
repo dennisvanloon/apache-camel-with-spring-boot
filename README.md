@@ -12,3 +12,6 @@ rm \*.zip
 
 cd camel-microservice-a
 mvn spring-boot:run
+
+cd files/json
+echo '{"id": 1, "from": "EUR", "to": "USD", "conversion": 10}' > test.json
