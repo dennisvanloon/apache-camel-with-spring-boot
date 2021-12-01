@@ -15,3 +15,6 @@ mvn spring-boot:run
 
 cd files/json
 echo '{"id": 1, "from": "EUR", "to": "USD", "conversion": 10}' > test.json
+
+cd files/xml
+echo '<xml><id>1</id><from>EUR</from><to>USD</to><conversion>2</conversion></xml>' > test.xml
