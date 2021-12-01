@@ -18,3 +18,8 @@ echo '{"id": 1, "from": "EUR", "to": "USD", "conversion": 10}' > test.json
 
 cd files/xml
 echo '<xml><id>1</id><from>EUR</from><to>USD</to><conversion>2</conversion></xml>' > test.xml
+
+kafka
+add to /etc/hosts
+127.0.0.1 hostname of kafka (docker ps check container id)
+can't we solve this some other way?
