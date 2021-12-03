@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MyFileRouter extends RouteBuilder {
 
     @Autowired
@@ -46,7 +46,7 @@ public class MyFileRouter extends RouteBuilder {
     
 }
 
-@Component
+//@Component
 class DeciderBean {
     
     Logger logger = LoggerFactory.getLogger(DeciderBean.class);
