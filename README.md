@@ -13,6 +13,8 @@ rm \*.zip
 cd camel-microservice-a
 mvn spring-boot:run
 
+docker run -p 61616:61616 -p 8161:8161 rmohr/activemq:5.15.9
+
 cd files/json
 echo '{"id": 1, "from": "EUR", "to": "USD", "conversion": 10}' > test.json
 
