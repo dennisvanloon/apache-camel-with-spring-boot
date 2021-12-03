@@ -8,7 +8,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.dataformat.JsonLibrary;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class AggregationPatternRoute extends RouteBuilder {
 
     class ArrayListAggregationStrategy implements AggregationStrategy {
