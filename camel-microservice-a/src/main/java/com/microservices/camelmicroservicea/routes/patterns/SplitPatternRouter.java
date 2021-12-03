@@ -6,7 +6,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class SplitPatternRouter extends RouteBuilder {
 
     @Autowired
@@ -23,7 +23,7 @@ public class SplitPatternRouter extends RouteBuilder {
     
 }
 
-@Component
+//@Component
 class SplitterComponent {
     public List<String> split(String body) {
         return List.of("ABC", "CDE", "DEF");
